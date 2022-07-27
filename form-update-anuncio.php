@@ -7,7 +7,13 @@
     <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
     <meta name = "viewport" content = "width=device-width, initial-scale=1">
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      #clave-id{
+        display: none;
+      }
+      
+    </style>  
   </head>
   <body>
  
@@ -23,7 +29,7 @@
               $result = $conne -> query($sql);
               $row = $result->fetch_assoc();
           ?>   
-            <input type="text" name="id" display=none value=<?php echo $row['id'] ?>>
+            <input type="text" name="id" id="clave-id" play="none" value=<?php echo $row['id'] ?>>
 
             <div class="mb-3">
               <label for="photo" class="form-label">Foto (formato URL)</label>
