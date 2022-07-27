@@ -14,7 +14,7 @@
   <?php
       //recibe el id del registro a consultar
       $id=$_GET['id'];
-      $sql = "SELECT * FROM pets WHERE id=".$id;
+      $sql = "SELECT * FROM pets WHERE id=$id";
       $result = $conne -> query($sql);
       $row = $result->fetch_assoc();
   ?>

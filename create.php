@@ -1,4 +1,5 @@
 <?php 
+  include "db.php" 
   if(isset($_POST['create'])) 
     {
         $photo = $_POST['photo'];
@@ -18,7 +19,9 @@
           if (!$add_adv) {
               echo "Error al accesar base de datos ". mysqli_error($conne);
           }
-          else { echo "<script type='text/javascript'>alert('Mascota agregada exitosamente!')</script>";
+          else { 
+            echo "<script type='text/javascript'>alert('Mascota agregada exitosamente!')</script>";
+
               }         
     }
 ?>
