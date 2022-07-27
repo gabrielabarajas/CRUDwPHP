@@ -23,7 +23,7 @@
               $result = $conne -> query($sql);
               $row = $result->fetch_assoc();
           ?>   
-            <input type="text" name="id" value=<?php echo $row['id'] ?>>
+            <input type="text" name="id" display=none value=<?php echo $row['id'] ?>>
 
             <div class="mb-3">
               <label for="photo" class="form-label">Foto (formato URL)</label>

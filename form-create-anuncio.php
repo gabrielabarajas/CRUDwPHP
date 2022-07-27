@@ -19,19 +19,19 @@
             <div class="mb-3">
               <label for="photo" class="form-label">Foto (formato URL)</label>
               <input name="photo" type="text" class="form-control" aria-describedby="nombreHelp" 
-              minLength = "5" required = "true" placeholder = "Introduce la url de la foto.">
+              minLength = "5" placeholder = "Introduce la url de la foto.">
             </div>
 
             <div class="mb-3">
               <label for="name" class="form-label">Nombre</label>
               <input name="name" type="text" class="form-control"  aria-describedby="nombreHelp" 
-              minLength = "3" required = "true" placeholder = "Introduce el nombre de la mascota">
+              minLength = "3" placeholder = "Introduce el nombre de la mascota">
             </div>
 
             <div class="mb-3">
               <label for="description" class="form-label">Descripción</label>
               <input name="description" type="text" class="form-control"  aria-describedby="nombreHelp" 
-              minLength = "5" required = "true" placeholder = "Introduce una breve descripcion de la mascota.">
+              minLength = "5" placeholder = "Introduce una breve descripcion de la mascota.">
             </div>
 
             <div class="mb-3">
