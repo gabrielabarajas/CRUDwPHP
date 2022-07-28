@@ -1,7 +1,7 @@
 <?php 
   include "db.php";
 
-  $id = $_GET['id'];
+  $id = $_POST['id'];
   $sql = "DELETE FROM pets WHERE id=$id"; 
 
   if ($conne->query($sql) === TRUE){
@@ -9,5 +9,4 @@
   }else{
     echo "Error : " . $sql . "<br>" . $conne->error;
   }
-  header("location: index.php");
 ?>
