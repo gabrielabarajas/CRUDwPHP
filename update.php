@@ -17,6 +17,6 @@
 
     $sql = "UPDATE pets SET photo='{$photo}', name='{$name}', description='{$description}', history='{$history}', category='{$category}', breed='{$breed}', tags='{$tags}', contact='{$contact}' WHERE id=$id";
     $update_adv = mysqli_query($conne,$sql);
-    echo "<script type='text/javascript'>alert('Anuncio de mascota modificado exitosamente!')</script>";      
+    echo ("<script LANGUAGE='JavaScript'> window.alert('Anuncio de mascota editado exitosamente'); window.location.href='index.php'; </script>");      
 ?>
 

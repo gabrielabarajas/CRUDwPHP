@@ -64,7 +64,7 @@
               minLength = "5" required = "false" placeholder = "Introduce datos de contacto para la adopcion de la mascota">
             </div>
 
-            <button type="submit" name ="create" value="submit" class="btn btn-primary" >Enviar</button>
+            <button type="submit" name ="create" value="submit" class="btn btn-primary" >Crear anuncio</button>
             <a  href="index.php" class="btn btn-primary">Cancelar</a>
         </form>
       </div>

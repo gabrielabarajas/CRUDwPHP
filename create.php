@@ -20,8 +20,7 @@
               echo "Error al accesar base de datos ". mysqli_error($conne);
           }
           else { 
-            echo "<script type='text/javascript'>alert('Mascota agregada exitosamente!')</script>";
-
-              }         
+            echo ("<script LANGUAGE='JavaScript'> window.alert('Anuncio de mascota creado exitosamente'); window.location.href='index.php'; </script>");
+          }        
     }
 ?>

@@ -79,7 +79,7 @@
               minLength = "5" required = "false" value="<?php echo $row['contact'] ?>">
             </div>
 
-            <button type="submit" name ="update" value="submit" class="btn btn-primary" >Enviar</button>
+            <button type="submit" name ="update" value="submit" class="btn btn-primary" >Modificar anuncio</button>
             <a  href="index.php" class="btn btn-primary">Cancelar</a>
         </form>
       </div>

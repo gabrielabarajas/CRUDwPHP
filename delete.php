@@ -5,10 +5,9 @@
   $sql = "DELETE FROM pets WHERE id=$id"; 
 
   if ($conne->query($sql) === TRUE){
-    echo "Anuncio eliminado correctamente";
+    echo ("<script LANGUAGE='JavaScript'> window.alert('Anuncio de mascota eliminado exitosamente'); window.location.href='index.php'; </script>");
   }else{
     echo "Error : " . $sql . "<br>" . $conne->error;
-    header("Location: index.php");
   }
- 
+  header("location: index.php");
 ?>

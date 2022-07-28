@@ -35,7 +35,7 @@ include "delete.php"?>
           <p class="lead">Categoría: <?php echo $row['category'] ?></p>
           <p class="lead">Raza : <?php echo $row['breed'] ?></p>
           <p class="lead">tags : <?php echo $row['tags'] ?></p>
-          <button type="submit" name ="delete" value="delete" class="btn btn-primary" >Eliminar</button>
+          <button type="submit" name ="delete" value="delete" class="btn btn-primary" >Eliminar anuncio</button>
           <a  href="index.php" class="btn btn-primary">Cancelar</a>
         </div>
         <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
