@@ -30,7 +30,7 @@ include "db.php";
     <div class="container my-5">
       <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
         <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-          <input id="" name="id" value=<?php echo $row['id'] ?>>
+          <input id="clave-id" name="id" value=<?php echo $row['id'] ?>>
           <h1 class="display-4 fw-bold lh-1"><?php echo $row['name'] ?></h1>
           <p class="lead">Categoría: <?php echo $row['category'] ?></p>
           <p class="lead">Raza : <?php echo $row['breed'] ?></p>

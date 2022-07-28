@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sinpadding{
+    padding: 0;
+}
+
+.sinmargin{
+    margin: 0;
+}
+
+.bkg-img{
+    background-image:url(https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+}
